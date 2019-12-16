@@ -13138,19 +13138,19 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1> <center> Ne Obliviscaris Member's Top 10 2019 </center></h1><h2> Summary of results </h2><p>These are the resulst of the 2019 Patreon's member survey.   Below this is the python code that was used to generate the data.</p>
-<h3><center> Member's Top 10 </center></h3><p><img src="Top10.png" alt="Smiley face" height="1200" width="1200"></p>
+<h1> <center> Ne Obliviscaris Member's Top 10 2019 </center></h1><h2><center> Summary of results </center> </h2><p>These are the resulst of the 2019 Patreon's member survey.   Below this is the python code that was used to generate the data.</p>
+<h3><center> Member's Top 11 </center></h3><p><img src="Top10.png" alt="Smiley face" height="1200" width="1200"></p>
 <p><h3><center> Member's Top 20 </center></h3>
 <img src="Top20.png" alt="Smiley face" height="1200" width="1200"></p>
-<p><h3><center> Member's Votes </center></h3>
+<p><h3><center> Member's Total Score </center></h3>
 <img src="Total.png" alt="Smiley face" height="1200" width="1200"></p>
-
+<center> Please report any errors to <a href="mailto:d.marrable@curtin.edu.au">Daniel Marrable</a> </center>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13172,7 +13172,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#votes = pd.read_excel(&#39;Test Results.xlsx&#39;)</span>
@@ -13190,7 +13190,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[2]:</div>
+    <div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -13317,7 +13317,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">score</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -13334,7 +13334,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[45]:</div>
 
 
 
@@ -13358,7 +13358,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">votes</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">votes</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
@@ -13394,7 +13394,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span><span class="o">.</span><span class="n">shape</span>
@@ -13410,7 +13410,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -13427,7 +13427,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">album</span>
@@ -13443,7 +13443,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[48]:</div>
 
 
 
@@ -13504,8 +13504,7 @@ $( document ).ready(function(){
         &#39;WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;, &#39;VEIL OF IMAGINATION&#39;,
         &#39;SPIRITUAL INSTINCT&#39;, &#39;NEPHILIM GROVE&#39;, &#39;VELENO&#39;,
         &#39;GARDEN OF STORMS&#39;, &#39;HEART LIKE A GRAVE&#39;, &#39;IN SPLENDOR BELOW&#39;],
-       [None, &#39;TO BATHE FROM THE THROAT OF COWARDICE&#39;,
-        &#39;FEAR INOCULUM (ONLY THE SECOND HALF...DESCENDING STARTS THE ALBUM FOR ME)&#39;,
+       [None, &#39;TO BATHE FROM THE THROAT OF COWARDICE&#39;, &#39;FEAR INOCULUM&#39;,
         &#39;THERE EXISTED AN ADDICTION TO BLOOD&#39;, &#39;NP COMPLETE&#39;,
         &#39;L`ACÈPHALE&#39;, &#39;OOFIE&#39;, &#39;THE INFERNAL PATHWAY&#39;, &#39;CALIGULA&#39;,
         &#39;HAQQ&#39;, &#39;DEATH ATLAS&#39;],
@@ -13758,7 +13757,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span>
@@ -13774,7 +13773,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -13874,7 +13873,7 @@ $( document ).ready(function(){
         &#39;DEVIN TOWNSEND&#39;, &#39;BLANCK MASS&#39;, &#39;SWALLOW THE SUN&#39;, &#39;RORCAL&#39;,
         &#39;DEAD TO A DYING WORLD&#39;, &#39;POSSESSED&#39;],
        [None, &#39;ANDY GILLION&#39;, &#39;ABIGAIL WILLIAMS&#39;, &#39;SOILWORK&#39;,
-        &#39;AMON AMARTH&#39;, &#39;OPETH&#39;, &#39;DEVIN TOWNSEND&#39;, &#39;ABATH&#39;, &#39;INSOMNIUM&#39;,
+        &#39;AMON AMARTH&#39;, &#39;OPETH&#39;, &#39;DEVIN TOWNSEND&#39;, &#39;ABBATH&#39;, &#39;INSOMNIUM&#39;,
         &#39;BORKNAGAR&#39;, &#39;IN MOURNING&#39;],
        [None, &#39;OPETH&#39;, &#39;TOOL&#39;, &#39;ROTTING CHRIST&#39;, &#39;DEVIN TOWNSEND&#39;,
         &#39;OBSEQUIAE&#39;, &#39;ALUNAH&#39;, &#39;PANOPTICON&#39;, &#39;PELICAN&#39;, &#39;ALLEGAEON&#39;,
@@ -14035,7 +14034,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band_count_list</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14053,7 +14052,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">band_count_list</span><span class="p">))</span>
@@ -14092,7 +14091,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14138,7 +14137,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
@@ -14345,7 +14344,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">55</span><span class="p">))</span>
@@ -14398,7 +14397,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[55]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">55</span><span class="p">))</span>
@@ -14451,7 +14450,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[56]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd_score</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">band_count_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span> <span class="mi">10</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="mi">9</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">*</span> <span class="mi">8</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">*</span> <span class="mi">4</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">*</span> <span class="mi">3</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">10</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -14468,7 +14467,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[56]:</div>
 
 
 
@@ -14531,19 +14530,6 @@ $( document ).ready(function(){
       <td>1.0</td>
     </tr>
     <tr>
-      <th>ABATH</th>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>4.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
       <th>ABBATH</th>
       <td>0.0</td>
       <td>0.0</td>
@@ -14551,7 +14537,7 @@ $( document ).ready(function(){
       <td>0.0</td>
       <td>0.0</td>
       <td>0.0</td>
-      <td>0.0</td>
+      <td>4.0</td>
       <td>3.0</td>
       <td>0.0</td>
       <td>0.0</td>
@@ -14634,6 +14620,19 @@ $( document ).ready(function(){
       <td>0.0</td>
       <td>0.0</td>
     </tr>
+    <tr>
+      <th>ALCEST</th>
+      <td>30.0</td>
+      <td>36.0</td>
+      <td>40.0</td>
+      <td>14.0</td>
+      <td>12.0</td>
+      <td>5.0</td>
+      <td>16.0</td>
+      <td>6.0</td>
+      <td>4.0</td>
+      <td>2.0</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -14647,7 +14646,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[57]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">55</span><span class="p">))</span>
@@ -14695,7 +14694,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[39]:</div>
+<div class="prompt input_prompt">In&nbsp;[61]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14703,7 +14702,7 @@ $( document ).ready(function(){
 
 <span class="n">total_score</span> <span class="o">=</span> <span class="n">pd_score</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="c1">#total_score.sort()</span>
-<span class="n">total_score</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="o">-</span><span class="mi">10</span><span class="p">:]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;barh&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
+<span class="n">total_score</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="o">-</span><span class="mi">11</span><span class="p">:]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;barh&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Total score for each band :: Top 10&#39;</span><span class="p">)</span>
 <span class="n">pylab</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Total score&#39;</span><span class="p">)</span>
@@ -14741,7 +14740,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[62]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14755,9 +14754,8 @@ $( document ).ready(function(){
 <span class="n">pylab</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Total score&#39;</span><span class="p">)</span>
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
-<span class="n">pylab</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;Top20.png&#39;</span><span class="p">)</span>
-
 <span class="n">pylab</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">pylab</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;Top20.png&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14804,7 +14802,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd_score</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;scores.xlsx&#39;</span><span class="p">)</span>
