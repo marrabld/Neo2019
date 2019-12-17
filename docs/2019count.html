@@ -13138,19 +13138,19 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1> <center> Ne Obliviscaris Member Top 10 2019 </center></h1><h2><center> Summary of results </center> </h2><p>These are the results of the 2019 Patreon member survey.   Below this is the Python code that was used to generate the data.</p>
-<h3><center> Member Top 10 </center></h3><p><img src="Top10.png" alt="Smiley face" height="1200" width="1200"></p>
-<p><h3><center> Member Top 20 </center></h3>
+<h1> <center> Ne Obliviscaris Member's Top 10 2019 </center></h1><h2><center> Summary of results </center> </h2><p>These are the resulst of the 2019 Patreon's member survey.   Below this is the python code that was used to generate the data.</p>
+<h3><center> Member's Top 10 </center></h3><p><img src="Top10.png" alt="Smiley face" height=1200 width="1200"></p>
+<p><h3><center> Member's Top 20 </center></h3>
 <img src="Top20.png" alt="Smiley face" height="1200" width="1200"></p>
-<p><h3><center> Member Total Score </center></h3>
+<p><h3><center> Member's Total Score </center></h3>
 <img src="Total.png" alt="Smiley face" height="1200" width="1200"></p>
-<center> The code is free to copy or use by anyone.  Please report any errors to <a href="mailto:d.marrable@curtin.edu.au">Daniel Marrable</a> </center>
+<center> Please report any errors to <a href="mailto:d.marrable@curtin.edu.au">Daniel Marrable</a> </center>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[125]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -13172,7 +13172,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[126]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#votes = pd.read_excel(&#39;Test Results.xlsx&#39;)</span>
@@ -13190,7 +13190,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[65]:</div>
+    <div class="prompt output_prompt">Out[126]:</div>
 
 
 
@@ -13317,7 +13317,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[127]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">score</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
@@ -13334,7 +13334,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[66]:</div>
+    <div class="prompt output_prompt">Out[127]:</div>
 
 
 
@@ -13358,7 +13358,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[67]:</div>
+<div class="prompt input_prompt">In&nbsp;[128]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">empty</span><span class="p">((</span><span class="n">votes</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">votes</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">]),</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
@@ -13394,7 +13394,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[129]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span><span class="o">.</span><span class="n">shape</span>
@@ -13410,7 +13410,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[68]:</div>
+    <div class="prompt output_prompt">Out[129]:</div>
 
 
 
@@ -13427,7 +13427,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[69]:</div>
+<div class="prompt input_prompt">In&nbsp;[130]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">album</span>
@@ -13443,7 +13443,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[69]:</div>
+    <div class="prompt output_prompt">Out[130]:</div>
 
 
 
@@ -13569,7 +13569,7 @@ $( document ).ready(function(){
        [None, &#39;NEVERAFTER&#39;, &#39;WALK BEYOND THE DARK&#39;, &#39;VERKLIGHETEN&#39;,
         &#39;BERSERKER&#39;, &#39;IN CAUDA VENENUM&#39;, &#39;EMPATH&#39;, &#39;OUTSTRIDER&#39;,
         &#39;HEART LIKE A GRAVE&#39;, &#39;TRUE NORTH&#39;, &#39;GARDENS OF STORMS&#39;],
-       [None, &#39;IN CAUDA VENENUM&#39;, &#39;FEAR INNOCULUM&#39;, &#39;THE HERETICS&#39;,
+       [None, &#39;IN CAUDA VENENUM&#39;, &#39;FEAR INOCULUM&#39;, &#39;THE HERETICS&#39;,
         &#39;EMPATH&#39;, &#39;THE PALMS OF SORROWED KINGS&#39;, &#39;VIOLET HOUR&#39;,
         &#39;THE CRESCENDO OF DUSK&#39;, &#39;NIGHTTIME STORIES&#39;, &#39;APOPTOSIS&#39;,
         &#39;THE VALLEY&#39;],
@@ -13578,7 +13578,7 @@ $( document ).ready(function(){
        [None, &#39;A DISTANT (DARK) SOURCE&#39;, &#39;PITFALLS&#39;, &#39;THE COCOON&#39;,
         &#39;APOPTOSIS&#39;, &#39;LEGACY OF THE DARK LANDS&#39;, &#39;LOMA&#39;, &#39;LOTUS&#39;, None,
         &#39;PERIPHERY IV: HAIL STAN&#39;, &#39;MOONGLOW&#39;],
-       [None, &#39;AGE OF EXCUSE&#39;, &#39;WHEN A SHADOW IS FORCED INTO THE LIGHT.&#39;,
+       [None, &#39;AGE OF EXCUSE&#39;, &#39;WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;,
         &#39;IN SPLENDOR BELOW&#39;, &#39;LEGACY&#39;, &#39;THE ATLANTIC&#39;,
         &#39;THE BLACK CONCENTRATION&#39;, &#39;THE RADIANT DARK&#39;, &#39;THE HERETICS&#39;,
         &#39;WORLD WAR X&#39;, &#39;MACRO&#39;],
@@ -13589,7 +13589,7 @@ $( document ).ready(function(){
         &#39;IN CAUDA VENENUM&#39;, &#39;HEARTS OF NO LIGHT&#39;, &#39;DISTANCE OVER TIME&#39;,
         &#39;THE LIBERATION&#39;],
        [None, &#39;VEIL OF IMAGINATION&#39;, &#39;ALGLEYMI&#39;,
-        &#39;THERE EXISTED AN ADDICTION TO BLOOD&#39;, &#39;A DAWN OF FEAR&#39;,
+        &#39;THERE EXISTED AN ADDICTION TO BLOOD&#39;, &#39;A DAWN TO FEAR&#39;,
         &#39;EMERGENCE&#39;, &#39;APOPTOSIS&#39;, &#39;SPIRITUAL INSTINCT&#39;,
         &#39;TRIUMPH &amp; DISASTER&#39;, &#39;BEHOLD SEDITION PLAINSONG&#39;, &#39;PITFALLS&#39;],
        [None, &#39;DEATH ATLAS&#39;, &#39;HIGH THE MEMORY&#39;, &#39;APOPTOSIS&#39;, &#39;DEMIURGUS&#39;,
@@ -13677,9 +13677,9 @@ $( document ).ready(function(){
         &#39;BIRTH OF VIOLENCE&#39;],
        [None, &#39;I: VOICE&#39;, &#39;DEATH ATLAS&#39;, &#39;THE BODY COSMIC&#39;, &#39;MELANCHOLY&#39;,
         &#39;ADORE&#39;, &#39;SPIRITUAL INSTINCT&#39;,
-        &#39;WHEN A SHADOW IS FORCED INTO LIGHT&#39;, &#39;DEMIURGUS&#39;, &#39;PITFALLS&#39;,
-        &#39;OF ROT AND RUINS&#39;],
-       [None, &#39;BELOW&#39;, &#39;UMBRA ASTRA LUNA&#39;, &#39;SPIRITUAL INSTINCT&#39;,
+        &#39;WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;, &#39;DEMIURGUS&#39;,
+        &#39;PITFALLS&#39;, &#39;OF ROT AND RUINS&#39;],
+       [None, &#39;PITFALLS&#39;, &#39;UMBRA ASTRA LUNA&#39;, &#39;SPIRITUAL INSTINCT&#39;,
         &#39;KALI YUGA CROWN&#39;, &#39;THE BELL&#39;, &#39;VELENO&#39;, &#39;TRUE NORTH&#39;,
         &#39;WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;, &#39;HEART LIKE A GRAVE&#39;,
         &#39;MARTYR&#39;],
@@ -13733,7 +13733,7 @@ $( document ).ready(function(){
         &#39;LOTUS&#39;, &#39;EMPATH&#39;],
        [None, &#39;FEAR INOCULUM&#39;, &#39;SPIRITUAL INSTINCT&#39;,
         &#39;HIDDEN HISTORY OF THE HUMAN RACE&#39;, &#39;PLANETARY CLAIRVOYANCE&#39;,
-        &#39;THE HERETICS&#39;, &#39;A DAWN OF FEAR&#39;, &#39;IN CAUDA VENENUM&#39;,
+        &#39;THE HERETICS&#39;, &#39;A DAWN TO FEAR&#39;, &#39;IN CAUDA VENENUM&#39;,
         &#39;GREEN AND GOLD&#39;, &#39;DISTANCE OVER TIME&#39;, &#39;WE ARE NOT YOUR KIND&#39;],
        [None, &#39;DEMIURGUS&#39;, &#39;LOVE EXCHANGE FAILURE&#39;, &#39;I: VOICE&#39;,
         &#39;IN CAUDA VENENUM&#39;, &#39;HIDDEN HISTORY PF THE HUMAN RACE&#39;,
@@ -13757,7 +13757,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[131]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band</span>
@@ -13773,7 +13773,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[70]:</div>
+    <div class="prompt output_prompt">Out[131]:</div>
 
 
 
@@ -13806,7 +13806,7 @@ $( document ).ready(function(){
        [None, &#39;OPETH&#39;, &#39;TOOL&#39;, &#39;ALCEST&#39;, &#39;MGŁA&#39;, None, &#39;INSOMNIUM&#39;,
         &#39;ESOTERIC&#39;, &#39;WORMWITCH&#39;, &#39;TOMB MOLD&#39;, &#39;MORTIFERUM&#39;],
        [None, &#39;CATTLE DECAPITATION&#39;, &#39;DJEVEL&#39;, &#39;SAOR&#39;, &#39;GARSDGHASTR&#39;,
-        &#39;NUMENOREAN&#39;, &#39;BLOOD INCANTATION&#39;, &#39;SINMARA&#39;, &#39;MISTHYRMING&#39;,
+        &#39;NUMENOREAN&#39;, &#39;BLOOD INCANTATION&#39;, &#39;SINMARA&#39;, &#39;MISÞYRMING&#39;,
         &#39;OBSEQUIAE&#39;, &#39;OPETH&#39;],
        [None, &#39;BEAST IN BLACK&#39;, &#39;LACUNA COIL&#39;, &#39;IHLO&#39;, &#39;WILDERUN&#39;,
         &#39;AEPHANEMER&#39;, &#39;AROUND THE FIRE&#39;, &#39;MGŁA&#39;, &#39;EQUIPOISE&#39;,
@@ -13816,14 +13816,14 @@ $( document ).ready(function(){
         &#39;FINSTERFORST&#39;, &#39;FALAISE&#39;, &#39;BULL OF APIS BULL OF BRONZE&#39;],
        [None, &#39;FVNERAL FVKK&#39;, &#39;THE DROWNING&#39;, &#39;WILDERUN&#39;, &#39;CULT OF LUNA&#39;,
         &#39;BORKNAGAR&#39;, &#39;OBSEQUIAE&#39;, &#39;SHADOW LIMB&#39;, &#39;THE GREAT OLD ONES&#39;,
-        &#39;KATHAROS XIII&#39;, &#39;CLIPPING&#39;],
+        &#39;KATHAROS XIII&#39;, &#39;CLIPPING.&#39;],
        [None, &#39;LINGUA IGNOTA&#39;, &#39;HAVE A NICE LIFE&#39;, &#39;PHARMAKON&#39;,
         &#39;CHELSEA WOLFE&#39;, &#39;THE BODY &amp; UNIFORM&#39;, &#39;BELLROPE&#39;, &#39;MOOR MOTHER&#39;,
         &#39;ALCEST&#39;, &#39;LUNACY&#39;, &#39;UBOA&#39;],
        [None, &#39;THRAWSUNBLAT&#39;, &#39;SAOR&#39;, &#39;SWALLOW THE SUN&#39;, &#39;WILDERUN&#39;,
         &#39;ALCEST&#39;, &#39;NOVEMBERS DOOM&#39;, &#39;FLESHGOD APOCALYPSE&#39;, &#39;IN MOURNING&#39;,
         &#39;INSOMNIUM&#39;, &#39;OCTOBER TIDE&#39;],
-       [None, &#39;VITRIOL&#39;, &#39;TOOL&#39;, &#39;CLIPPING&#39;, &#39;EAST OF THE WALL&#39;,
+       [None, &#39;VITRIOL&#39;, &#39;TOOL&#39;, &#39;CLIPPING.&#39;, &#39;EAST OF THE WALL&#39;,
         &#39;L`ACÈPHALE&#39;, &#39;WIKI&#39;, &#39;1349&#39;, &#39;LINGUA IGNOTA&#39;, &#39;LITURGY&#39;,
         &#39;CATTLE DECAPITATION&#39;],
        [None, &#39;MÄGO DE OZ&#39;, &#39;SÜHNOPFER&#39;, &#39;TRIBE OF PAZUZU&#39;, None,
@@ -13852,12 +13852,12 @@ $( document ).ready(function(){
        [None, &#39;ALCEST&#39;, &#39;OPETH&#39;, &#39;SOEN&#39;, &#39;DEVIN TOWNSEND&#39;,
         &#39;DRAB MAJESTY&#39;, &#39;HEILUNG&#39;, &#39;CHELSEA WOLFE&#39;, &#39;KLONE&#39;, &#39;INSOMNIUM&#39;,
         None],
-       [None, &#39;WILDERUN&#39;, &#39;OPETH&#39;, &#39;BLIND GUARDIAN TWILIGHT ORCHESTRA&#39;,
-        &#39;NORTHLANE&#39;, &#39;AVANTASIA&#39;, &#39;DREADNOUGHT&#39;, &#39;DEVIN TOWNSEND&#39;,
-        &#39;TOOL&#39;, &#39;LEPROUS&#39;, &#39;WITHIN TEMPTATION&#39;],
+       [None, &#39;WILDERUN&#39;, &#39;OPETH&#39;, &#39;BLIND GUARDIAN&#39;, &#39;NORTHLANE&#39;,
+        &#39;AVANTASIA&#39;, &#39;DREADNOUGHT&#39;, &#39;DEVIN TOWNSEND&#39;, &#39;TOOL&#39;, &#39;LEPROUS&#39;,
+        &#39;WITHIN TEMPTATION&#39;],
        [None, &#39;WITHIN TEMPTATION&#39;, &#39;LEPROUS&#39;, &#39;ALCEST&#39;, &#39;OPETH&#39;,
-        &#39;IAPETUS&#39;, &#39;BLIND GUARDIAN TWILIGHT ORCHESTRA&#39;, &#39;DEVIN TOWNSEND&#39;,
-        &#39;ELUVEITIE&#39;, &#39;SOEN&#39;, &#39;DELAIN&#39;],
+        &#39;IAPETUS&#39;, &#39;BLIND GUARDIAN&#39;, &#39;DEVIN TOWNSEND&#39;, &#39;ELUVEITIE&#39;,
+        &#39;SOEN&#39;, &#39;DELAIN&#39;],
        [None, &#39;DEVIN TOWNSEND&#39;, &#39;SCHAMMASCH&#39;, &#39;SWALLOW THE SUN&#39;,
         &#39;ABYSSIC&#39;, &#39;IAPETUS&#39;, &#39;MEPHORASH&#39;, &#39;DISILLUSION&#39;, &#39;WARFORGED&#39;,
         &#39;BORKNAGAR&#39;, &#39;CULT OF LUNA&#39;],
@@ -13882,15 +13882,14 @@ $( document ).ready(function(){
         &#39;THANK YOU SCIENTIST&#39;, &#39;ANAMANAGUCHI&#39;, None, &#39;ABSENT HEARTS&#39;,
         &#39;ELUVEITIE&#39;, &#39;HANIA RANI&#39;, &#39;EVERGREY&#39;],
        [None, &#39;HYPNO5E&#39;, &#39;LEPROUS&#39;, &#39;RICHARD HENSHALL&#39;, &#39;ALLEGAEON&#39;,
-        &#39;BLIND GUARDIAN TWILIGHT ORCHESTRA&#39;, &#39;STRO&#39;, &#39;SOEN&#39;, None,
-        &#39;PERIPHERY&#39;, &#39;AVANTASIA&#39;],
+        &#39;BLIND GUARDIAN&#39;, &#39;STRO&#39;, &#39;SOEN&#39;, None, &#39;PERIPHERY&#39;, &#39;AVANTASIA&#39;],
        [None, &#39;MGŁA&#39;, &#39;SWALLOW THE SUN&#39;, &#39;OCTOBER TIDE&#39;, &#39;SECOND TO SUN&#39;,
         &#39;EVERGREY&#39;, &#39;NOCTEM&#39;, &#39;THE DROWNING&#39;, &#39;ROTTING CHRIST&#39;,
         &#39;CARNIFEX&#39;, &#39;JINJER&#39;],
        [None, &#39;INSOMNIUM&#39;, &#39;TOOL&#39;, &#39;SWALLOW THE SUN&#39;, &#39;GLORYHAMMER&#39;,
         &#39;BELZEBUBS&#39;, &#39;PERIPHERY&#39;, &#39;OPETH&#39;, &#39;SCHAMMASCH&#39;, &#39;DREAM THEATER&#39;,
         &#39;DISILLUSION&#39;],
-       [None, &#39;WILDERUN&#39;, &#39;MYSÞYRMING&#39;, &#39;CLIPPING.&#39;, &#39;CULT OF LUNA&#39;,
+       [None, &#39;WILDERUN&#39;, &#39;MISÞYRMING&#39;, &#39;CLIPPING.&#39;, &#39;CULT OF LUNA&#39;,
         &#39;DREADNOUGHT&#39;, &#39;ALLEGAEON&#39;, &#39;ALCEST&#39;, &#39;WE LOST THE SEA&#39;,
         &#39;DAWN RAY’D&#39;, &#39;LEPROUS&#39;],
        [None, &#39;CATTLE DECAPITATION&#39;, &#39;ABYSSIC&#39;, &#39;ALLEGAEON&#39;, &#39;EQUIPOISE&#39;,
@@ -14028,13 +14027,13 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="We-count-the-number-of-occurencies-that-are-the-same.--::-NOT-checking-for-typos-here-just-yet.--we-will-worry-about-that-later">We count the number of occurrences that are the same.  :: NOT checking for typos here just yet.  we will worry about that later<a class="anchor-link" href="#We-count-the-number-of-occurencies-that-are-the-same.--::-NOT-checking-for-typos-here-just-yet.--we-will-worry-about-that-later">&#182;</a></h2>
+<h2 id="We-count-the-number-of-occurencies-that-are-the-same.--::-NOT-checking-for-typos-here-just-yet.--we-will-worry-about-that-later">We count the number of occurencies that are the same.  :: NOT checking for typos here just yet.  we will worry about that later<a class="anchor-link" href="#We-count-the-number-of-occurencies-that-are-the-same.--::-NOT-checking-for-typos-here-just-yet.--we-will-worry-about-that-later">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[71]:</div>
+<div class="prompt input_prompt">In&nbsp;[132]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">band_count_list</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14052,7 +14051,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[133]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">band_count_list</span><span class="p">))</span>
@@ -14091,7 +14090,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[134]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14137,7 +14136,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[135]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">11</span><span class="p">):</span>
@@ -14344,7 +14343,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[75]:</div>
+<div class="prompt input_prompt">In&nbsp;[136]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">55</span><span class="p">))</span>
@@ -14353,7 +14352,7 @@ $( document ).ready(function(){
     <span class="k">for</span> <span class="n">jj</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">band</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
         <span class="n">stack</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">band</span><span class="p">[</span><span class="n">jj</span><span class="p">,</span> <span class="n">ii</span><span class="p">])</span>
 
-
+<span class="n">bname</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;barh&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Total number of votes for each band&#39;</span><span class="p">)</span>
@@ -14397,7 +14396,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[137]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">55</span><span class="p">))</span>
@@ -14406,7 +14405,7 @@ $( document ).ready(function(){
     <span class="k">for</span> <span class="n">jj</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">album</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
         <span class="n">stack</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">album</span><span class="p">[</span><span class="n">jj</span><span class="p">,</span> <span class="n">ii</span><span class="p">])</span>
 
-
+<span class="n">aname</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">(</span><span class="n">stack</span><span class="p">)</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s1">&#39;barh&#39;</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Total Number of votes for each album&#39;</span><span class="p">)</span>
@@ -14444,13 +14443,13 @@ $( document ).ready(function(){
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Okay-next-we-need-to-apply-a-score-based-on-each-voting-tier.">Okay next we need to apply a score based on each voting tier.<a class="anchor-link" href="#Okay-next-we-need-to-apply-a-score-based-on-each-voting-tier.">&#182;</a></h2>
+<h2 id="Okay-next-we-need-to-applay-a-score-based-on-each-voting-tier.">Okay next we need to applay a score based on each voting tier.<a class="anchor-link" href="#Okay-next-we-need-to-applay-a-score-based-on-each-voting-tier.">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="prompt input_prompt">In&nbsp;[138]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd_score</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">band_count_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">*</span> <span class="mi">10</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">*</span> <span class="mi">9</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">*</span> <span class="mi">8</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">*</span> <span class="mi">4</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span> <span class="o">*</span> <span class="mi">3</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">9</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">band_count_list</span><span class="p">[</span><span class="mi">10</span><span class="p">]],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">sort</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -14467,7 +14466,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[77]:</div>
+    <div class="prompt output_prompt">Out[138]:</div>
 
 
 
@@ -14646,7 +14645,68 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[166]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">label</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">ii</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">12</span><span class="p">,</span> <span class="mi">0</span><span class="p">):</span>
+    <span class="n">label</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">bname</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">ii</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; - &#39;</span> <span class="o">+</span> <span class="n">aname</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="n">ii</span><span class="p">])</span>
+    <span class="c1">#print(bname.index[ii] + &#39; - &#39; + aname.index[ii])</span>
+<span class="n">label</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[166]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[&#39;CATTLE DECAPITATION - DEATH ATLAS&#39;,
+ &#39;MGŁA - AGE OF EXCUSE&#39;,
+ &#39;BORKNAGAR - TRUE NORTH&#39;,
+ &#39;WILDERUN - VEIL OF IMAGINATION&#39;,
+ &#39;SWALLOW THE SUN - WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;,
+ &#39;TOOL - FEAR INOCULUM&#39;,
+ &#39;ALLEGAEON - APOPTOSIS&#39;,
+ &#39;LEPROUS - PITFALLS&#39;,
+ &#39;OPETH - IN CAUDA VENENUM&#39;,
+ &#39;DEVIN TOWNSEND - EMPATH&#39;,
+ &#39;ALCEST - SPIRITUAL INSTINCT&#39;,
+ &#39;INSOMNIUM - HEART LIKE A GRAVE&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[167]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">label_top10</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;INSOMNIUM - HEART LIKE A GRAVE&#39;</span><span class="p">,</span> <span class="s1">&#39;ALCEST - SPIRITUAL INSTINCT&#39;</span><span class="p">,</span> <span class="s1">&#39;DEVIN TOWNSEND - EMPATH&#39;</span><span class="p">,</span> <span class="s1">&#39;OPETH - IN CAUDA VENENUM&#39;</span><span class="p">,</span> <span class="s1">&#39;LEPROUS - PITFALLS&#39;</span><span class="p">,</span> <span class="s1">&#39;WILDERUN - VEIL OF IMAGINATION&#39;</span><span class="p">,</span><span class="s1">&#39;ALLEGAEON - APOPTOSIS&#39;</span><span class="p">,</span><span class="s1">&#39;TOOL - FEAR INOCULUM&#39;</span><span class="p">,</span><span class="s1">&#39;SWALLOW THE SUN - WHEN A SHADOW IS FORCED INTO THE LIGHT&#39;</span><span class="p">,</span> <span class="s1">&#39;MGŁA - AGE OF EXCUSE&#39;</span> <span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[141]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span><span class="mi">55</span><span class="p">))</span>
@@ -14682,7 +14742,7 @@ $( document ).ready(function(){
 
 
 <div class="output_png output_subarea ">
-<img src="output_26_0.png"
+<img src="output_28_0.png"
 >
 </div>
 
@@ -14694,7 +14754,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="prompt input_prompt">In&nbsp;[180]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14706,6 +14766,9 @@ $( document ).ready(function(){
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Total score for each band :: Top 10&#39;</span><span class="p">)</span>
 <span class="n">pylab</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;Total score&#39;</span><span class="p">)</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">pylab</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+<span class="n">label_top10</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yticklabels</span><span class="p">(</span><span class="n">label_top10</span><span class="p">)</span>
 <span class="n">pylab</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
 
 <span class="n">pylab</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
@@ -14728,7 +14791,7 @@ $( document ).ready(function(){
 
 
 <div class="output_png output_subarea ">
-<img src="output_27_0.png"
+<img src="output_29_0.png"
 >
 </div>
 
@@ -14740,7 +14803,20 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[179]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">label_top10</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[143]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pylab</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
@@ -14774,7 +14850,7 @@ $( document ).ready(function(){
 
 
 <div class="output_png output_subarea ">
-<img src="output_28_0.png"
+<img src="output_31_0.png"
 >
 </div>
 
@@ -14802,7 +14878,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[144]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd_score</span><span class="o">.</span><span class="n">to_excel</span><span class="p">(</span><span class="s1">&#39;scores.xlsx&#39;</span><span class="p">)</span>
